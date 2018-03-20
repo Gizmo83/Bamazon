@@ -8,7 +8,8 @@ CREATE TABLE products (
     product_name VARCHAR(100),
     department_name VARCHAR(100),
     price DECIMAL(6,2),
-    stock_quantity INTEGER
+    stock_quantity INTEGER,
+    product_sales DECIMAL(7,2)
 );
 
 DESCRIBE products;

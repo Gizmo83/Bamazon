@@ -64,20 +64,23 @@ function store() {
   
           // determine if there is enough inventory
           if (chosenItem.stock_quantity >= parseInt(answer.qty)) {
+            var total = answer.qty * chosenItem.price;
             // enough inventory, update db, let the user know
             connection.query(
-              "UPDATE products SET ? WHERE ?",
+              "UPDATE products SET ?, ? WHERE ?",
               [
                 {
-                  stock_quantity: chosenItem.stock_quantity - answer.qty
+                    stock_quantity: chosenItem.stock_quantity - answer.qty
                 },
                 {
-                  item_id: chosenItem.item_id
+                    product_sales: chosenItem.product_sales + total
+                },
+                {
+                    item_id: chosenItem.item_id
                 }
               ],
               function(error) {
                 if (error) throw err;
-                var total = answer.qty * chosenItem.price;
                 console.log("--------------------------------------------------------------");
                 console.log("Order placed - Qty:" + answer.qty + " - " + chosenItem.product_name + " Total: " + total);
                 console.log("--------------------------------------------------------------");
