@@ -20,7 +20,7 @@ bamazonCustomer.js pulls a products table from a MySQL database and displays all
  
  ![](images/customer3.JPG)
 
- * Step 4: If insufficient, it will prompt insufficent and ask the customer if they want to make another purchase
+ * Step 4: If insufficient, it will prompt insufficient and ask the customer if they want to make another purchase
  
  ![](images/customer6.JPG)
 
