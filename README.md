@@ -13,21 +13,27 @@ bamazonCustomer.js pulls a products table from a MySQL database and displays all
 * node.js bamazonCustomer.js
 
 * Step 1: Start Screen - Displays all items available
+
 ![](images/customer1.JPG)
 
 * Step 2: Once item has been selected, it will prompt for quantity
+
 ![](images/customer2.JPG)
 
-* Step 3: If quantity is sufficient, order is placed and shows the total.
+* Step 3: If quantity is sufficient, order is placed and shows the total
+
 ![](images/customer3.JPG)
 
-* Step 4: If insufficient, it will prompt insufficient and ask the customer if they want to make another purchse
+* Step 4: If insufficient, it will prompt insufficient and ask the customer if they want to make another purchase
+
 ![](images/customer6.JPG)
 
 * Step 5: Make another purchase?
+
 ![](images/customer4.JPG)
 
 * Step 6: Exit
+
 ![](images/customer5.JPG)
 
 
