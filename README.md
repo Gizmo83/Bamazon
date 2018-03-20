@@ -12,6 +12,8 @@ bamazonCustomer.js pulls a products table from a MySQL database and displays all
 
 * node.js bamazonCustomer.js
 
+#### Instructions
+
 * Step 1: Start Screen - Displays all items available
 
 ![](images/customer1.JPG)
@@ -49,6 +51,8 @@ bamazonManager.js lets you:
 
 * node.js bamazonManager.js
 
+#### Instructions
+
 * Step 1: Start Screen - Choose an option
 
 ![](images/manager1.JPG)
@@ -69,7 +73,7 @@ bamazonManager.js lets you:
 ![](images/manager4.JPG)
 
 * Step 5: Add New Product
-    * Eneter Product Name
+    * Enter Product Name
     * Enter Department
     * Enter Price
     * Enter Quantity
@@ -86,6 +90,8 @@ bamazonSupervisor.js lets you:
 #### How To Run
 
 * node.js bamazonManager.js
+
+#### Instructions
 
 * Step 1: Start Screen - Choose an option
 
